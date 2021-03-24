@@ -1,0 +1,31 @@
+import java.util.*;
+
+class teste {
+    static void fibonacci(int a, int b) {
+        float greater = a > b ? a : b;
+        System.out.println((int) greater);
+        int save = (int)greater;
+        int aux = save;
+        greater /= 1.618;
+        greater = (int)Math.ceil(greater);
+        System.out.println((int) greater);
+        while (greater > 1) 
+        {
+            save = (int)greater;
+            greater = aux-greater;
+            aux = save;
+            System.out.println((int) greater);
+        }
+        System.out.println(1 + "\n" + 0);
+    }
+
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+        
+        int a = read.nextInt();
+        int b = read.nextInt();
+        fibonacci(a, b);
+
+        read.close();
+    }
+}
