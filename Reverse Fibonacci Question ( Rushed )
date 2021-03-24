@@ -1,0 +1,22 @@
+import java.util.*;
+
+class Fibonacci {
+    static void fibonacci(int a, int b) {
+        float greater = a > b ? a : b;
+        System.out.println((int) greater);
+        while (greater > 1) {
+            greater /= 1.618;
+            System.out.println((int) greater);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+        
+        int a = read.nextInt();
+        int b = read.nextInt();
+        fibonacci(a, b);
+
+        read.close();
+    }
+}
