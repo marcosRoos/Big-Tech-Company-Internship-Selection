@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-class teste {
+class Developers {
     static int calcularPrazo(int[] qtt, String[] devs, int score) 
     {
         int time = 0;
