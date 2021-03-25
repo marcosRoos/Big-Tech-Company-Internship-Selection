@@ -5,7 +5,7 @@ POA/RS - BRAZIL;*
   
 ========================================================================  
   
-**Questions :**  
+## **Questions :**  
   
 1 ) Create an algorithm ( as you wish ) wich answer a 4x4 sudoku.  
   
@@ -13,7 +13,7 @@ POA/RS - BRAZIL;*
 team to finish a job. it should receive 4 levels of developers, the quantity of them  
 and how much effort it takes to end the job.  
   
-##Effort Table  
+## Effort Table  
 Junior | takes 14 days to produce 1 effort point            //junior developer   
 Pleno  | takes 7 days to produce 2 effort points            // developer   
 Senior | takes a day to produce 1 effort point              // Senior developer   
@@ -22,8 +22,7 @@ Líder Técnico | takes a day to produce 3 effort points      // Tech leader
 Exemple  
 {  
     input :  
-        { [ 2, 3, 4, 1], [ "Junior", "Pleno", "Senior", "LT"], 112 }  
-          
+        { [ 2, 3, 4, 1], [ "Junior", "Pleno", "Senior", "LT"], 112 }    
     output :  
         14 dias    // 14 days   
 }  
