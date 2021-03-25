@@ -1,11 +1,11 @@
-##My first try on a big tech company test for internship;  
-##The original enunciated was in portuguese, because of this, 
+*My first try on a big tech company test for internship;  
+The original enunciated was in portuguese, because of this, 
 it may have some portuguese words on the code and on the questions;  
-##POA/RS - BRAZIL;  
+POA/RS - BRAZIL;*  
   
 ========================================================================  
   
-#Questions :  
+**Questions :**  
   
 1 ) Create an algorithm ( as you wish ) wich answer a 4x4 sudoku.  
   
@@ -14,10 +14,10 @@ team to finish a job. it should receive 4 levels of developers, the quantity of 
 and how much effort it takes to end the job.  
   
 ##Effort Table  
-Junior | takes 14 days to produce 1 effort point //junior developer   
-Pleno  | takes 7 days to produce 2 effort points // developer   
-Senior | takes a day to produce 1 effort point  // Senior developer   
-Líder Técnico | takes a day to produce 3 effort points  // Tech leader   
+Junior | takes 14 days to produce 1 effort point            //junior developer   
+Pleno  | takes 7 days to produce 2 effort points            // developer   
+Senior | takes a day to produce 1 effort point              // Senior developer   
+Líder Técnico | takes a day to produce 3 effort points      // Tech leader   
   
 Exemple  
 {  
